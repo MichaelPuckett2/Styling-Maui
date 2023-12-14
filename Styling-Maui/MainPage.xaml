@@ -83,7 +83,10 @@
                     Clicked="OnCounterClicked"
                     HorizontalOptions="Center" />
 
+            <ContentView Content="{StaticResource ResourceView}" />
+
         </VerticalStackLayout>
+
     </ScrollView>
 
 </ContentPage>
