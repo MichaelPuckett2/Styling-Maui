@@ -8,7 +8,14 @@
         <Setter Property="Title"
                 Value="This is my style bro!" />
         <Setter Property="Background"
-                Value="{DynamicResource Christmas}" />
+                Value="{StaticResource Christmas}" />
+    </Style>
+
+    <Style x:Key="ChristmasAgainStyle"
+           TargetType="ContentPage"
+           BasedOn="{StaticResource ContentPageChristmasStyle}">
+        <Setter Property="Title"
+                Value="This is inherited style." />
     </Style>
 
     <Style TargetType="ActivityIndicator">
